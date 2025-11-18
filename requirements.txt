@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+keras==2.15.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tqdm
+opencv-python
+Pillow

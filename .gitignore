@@ -1,0 +1,62 @@
+# -------------------------------------
+# IGNORE ENTIRE DATASET CONTENT
+# -------------------------------------
+dataset/*
+!dataset/.gitkeep
+
+# -------------------------------------
+# IGNORE ALL VIRTUAL ENVIRONMENTS
+# -------------------------------------
+env/
+venv/
+.venv/
+ENV/
+*.env
+*.venv
+
+# -------------------------------------
+# IGNORE ALL MODEL FILES (TRAINED OR PRETRAINED)
+# -------------------------------------
+models/saved_models/
+models/best_models/
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.tflite
+*.ckpt
+*.ckpt.*
+
+# -------------------------------------
+# PYTHON CACHE / TEMP
+# -------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------------
+# NOTEBOOK CHECKPOINTS
+# -------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------
+# SYSTEM / EDITOR FILES
+# -------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------------------
+# LOGS
+# -------------------------------------
+*.log
+logs/
+*.out
+
+# -------------------------------------
+# CACHE DIRECTORIES
+# -------------------------------------
+.cache/
+tensorboard/
