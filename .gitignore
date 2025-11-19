@@ -9,6 +9,8 @@ dataset/*
 # -------------------------------------
 env/
 venv/
+myvenv/
+
 .venv/
 ENV/
 *.env
